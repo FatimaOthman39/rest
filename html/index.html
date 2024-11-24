@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friends Restaurant
+  </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-MQ1SC0NNja4MJZ2GpTMLDAXcaAxRm7Kfjl8z2HiOKPzOf+ZSzEFnrl9lfMElxOKI" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+
+  <link rel="icon" type="image/png" href="./pic/png-thumbnail.png">
+
+</head>
+
+<body>
+
+  <section class="social d-flex justify-content-between align-items-center  ">
+
+    <div class="m-3">
+      <i class="fa-solid fa-user fa-2xl" id="userIcon"></i>
+      <div id="loginAlert" class="alert-box">
+        <div class="alert-content">
+          <h2 class="fw-bold text-white	">تسجيل الدخول</h2>
+          <form>
+            <label for="username" class="text-white fw-bold	">username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+
+            <label for="password" class="text-white fw-bold	">password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <button type="submit" class="enter">submit</button>
+          </form>
+          <button id="closeAlert" class="close-btn">X</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="d-flex align-items-center">
+      <div class="d-flex gap-1 m-1">
+        <i class="fa-brands fa-whatsapp mt-1 rounded-circle text-white"
+          style="border: 2px solid rgb(88, 21, 21); padding: 10px;"></i>
+        <i class="fa-brands fa-instagram mt-1 rounded-circle text-white"
+          style="border: 2px solid rgb(88, 21, 21); padding: 10px;"></i>
+        <i class="fa-brands fa-facebook mt-1 rounded-circle text-white"
+          style="border: 2px solid rgb(88, 21, 21); padding: 10px;"></i>
+      </div>
+      <h6 class="mt-1 gap-1 p-1">
+        Mon-Fri 9:00Am-19:30Pm / Closed in Weekends
+      </h6>
+    </div>
+  </section>
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-brown   ">
+      <div class="container bg-brown ">
+
+        <div class="collapse navbar-collapse bg-brown" id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link active  text-white" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link " href="#about">About</a>
+            </li>
+            <li class="nav-item ">
+
+              <a class="nav-link " href="./menu.html">Menu</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link  " aria-disabled="true" href="./blog.html">Blog</a>
+            </li>
+            <li class="nav-item ">
+              <a href="./contact.html" class="nav-link  " aria-disabled="true">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex align-items-center m-1 p-1">
+
+        <a style="margin: 0; white-space:  nowrap;" class=" text-decoration-none   text-white fs-3 " href="./index.html">Friends
+          Restaurant</a>
+        <img src="./pic/png-thumbnail.png" alt="Logo" class="logo p-1"
+          style="width: 40px; height: auto; margin-right: 10px; ;">
+      </div>
+
+
+    </nav>
+
+    <section>
+      <div class="welcome-background d-flex justify-content-center align-items-center">
+        <div class=" text-brown ">
+          <h1 class="text-center animate__animated animate__fadeInUp">Welcome To Friends Resturant</h1>
+          <h2 class="text-center animate__animated animate__fadeInUp">Enjoy your experience</h2>
+          <p class="text-center animate__animated animate__fadeInUp"> ""Discover a world waiting for you!
+          </p>
+          <div class="text-center">
+            <a href="./contact.html" class="custom-border text-white text-decoration-none mx-2">Order Now</a>
+            <a href="./menu.html" class="custom-border text-white text-decoration-none mx-2">Visit Our Menu</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+  </header>
+  <section class="about d-flex container  m-5 align-items-center  text-brown " id="about">
+    <div class="about-start  m-5  align-items-center k=justify-content-center ">
+      <h1 class="text-brown">About Us</h1>
+      <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit . Ut fugit tempore quo officiis sit
+        deserunt accusantium quasi veniam ad vitae? Quae dolor atque dolore, animi debitis tempora nemo voluptatum
+        quaerat! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio iusto aperiam dolore veritatis? Magni
+        laborum saepe, quis beatae nisi explicabo, iure mollitia odio, similique aut reiciendis rerum quibusdam sunt
+        culpa?</p>
+      <a href=""
+        class="text-white text-decoration-none bg-brown p-2  btn btn-dark animate__animated animate__pulse animate__infinite mt-3">Read
+        More</a>
+
+    </div>
+
+    <img src="./pic/372b14d2-f8b8-43a5-be48-d82c335439d3.jpg" alt="" class="w-25">
+
+
+  </section>
+  <h1 class="text-center mb-2 p-1">Blog</h1>
+  <section class="blog d-flex container  gap-1 h-50">
+
+    <div class="  border border-dark text-center w-100 p-1 ">
+      <img src="./pic/887eaccb-376f-4dec-8801-8f00824f3f54.jpg" alt="" class="w-100 h-50 ">
+      <h5 class="">Our Story</h5>
+      <p class=" ">Our Story
+        How Our Restaurant Started and Where We Are Now
+
+        A tale of beginnings, from the first spark of an idea to the stages of growth and launching our website. It all
+        started with a simple dream: to serve exceptional food that reflects the authenticity of flavors and the quality
+        of ingredients. From day one, our mission has been to create an experience that combines great taste with a warm
+        and welcoming atmosphere, making every guest feel right at home.
+
+        Over time, our restaurant grew, thanks to the support of our amazing customers who became part of our family. We
+        introduced new dishes to cater to all tastes and expanded our team to include talented chefs who share our
+        passion for culinary excellence.
+
+        Today, we are proud to launch our website, a bridge that connects us to you wherever you are. Our goal is to
+        stay close to our customers and provide a seamless dining experience, whether you visit us at the restaurant or
+        enjoy our food from the comfort of your home.
+
+        Our journey continues, powered by your love and trust. We look forward to serving you the very best every step
+        of the way.</p>
+    </div>
+    <div class="border  border-dark text-center w-100 p-1">
+      <img src="./pic//ddffc3b8-fd12-484d-a58b-5f63747da842.jpg" alt="" class="w-100 h-50">
+      <h5 class="">Our Online Services</h5>
+      <p class="">We’ve made enjoying your favorite meals easier than ever with our convenient online services! Whether
+        you're craving a quick bite or planning a special meal, our digital platform has everything you need to ensure a
+        seamless experience.
+        Get your favorite dishes delivered right to your doorstep! Our delivery service is designed for speed and
+        quality, ensuring that every order arrives hot, fresh, and ready to enjoy.
+        Want to join? Check out our upcoming events calendar on our website for details about dates, times, and how to
+        reserve your spot. Spaces are limited, so be sure to book early!
+
+        We can’t wait to share these unique experiences with you and take you behind the scenes of our culinary journey.
+        See you there!
+        Want to skip the wait? Use our pre-order option to select your meals in advance. Whether it’s for a lunch break
+        or a dinner party, you can schedule your order for pick-up or delivery at a time that suits you</p>
+    </div>
+    <div class=" border border-dark text-center w-100 p-1">
+      <img src="./pic/924def49-979e-4bac-89c0-2c401b0a6a97.jpg" alt="" class="w-100 h-50">
+      <h5 class="">Events at Our Restaurant</h5>
+      <p class="">Cooking Classes and Tasting Experiences
+
+        Discover the magic behind the flavors at our restaurant by joining one of our exciting events! We host cooking
+        classes and tasting sessions where you can explore our signature dishes and learn the art of preparing them.
+        Whether you’re a seasoned chef or a passionate foodie, there’s something for everyone to enjoy.
+
+        Our cooking workshops are led by our talented chefs, who share their expertise and insider tips to help you
+        recreate restaurant-quality meals at home. During the tasting events, you’ll have the chance to sample a variety
+        of dishes, learn about the ingredients, and even suggest ideas for future menus.
+        .</p>
+    </div>
+  </section>
+  <h1 class="text-center">Testimonial</h1>
+  <section class="Testimonial  d-flex container  gap-1 h-50">
+    <div class="  border border-secondary-subtl text-center w-100 p-1 m-2 p-3">
+      <img src="./pic/Friends Gathering.jpg" alt="" class="w-100 h-50 ">
+      <h2 class="">Card with stretched link</h2>
+      <p class=" ">Some quick example text to build on the card title and make up the bulk of the card's content for
+        you.</p>
+      <div class="d-flex justify-content-center">
+        <i class="fas fa-star-half-alt" style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star " style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+      </div>
+    </div>
+    <div class=" border border-secondary-subtl text-center w-100 p-1   m-2 p-3">
+      <img src="./pic/joyful coffee.jpg" alt="" class="w-100 h-50">
+      <h2 class="">Card with stretched link</h2>
+      <p class="">ome quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <div class="d-flex justify-content-center"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+      </div>
+    </div>
+
+    <div class="border border-secondary-subtl text-center w-100 p-1  m-2 p-3">
+      <img src="./pic/Joyful Coffee Moment.jpg" alt="" class="w-100 h-50">
+      <h2 class="">Card with stretched link</h2>
+      <p class="">ome quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <div class="d-flex justify-content-center"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+      </div>
+    </div>
+  </section>
+
+  <section class="Contact">
+    <div>
+
+      <div class="container mt-5">
+        <h2 class="text-center mb-4 text-brown">Contact Us</h2>
+        <form class="p-4 border rounded border-dark bg-white shadow-sm">
+
+          <div class="mb-3">
+            <label for="name" class="form-label ">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Write your message here"
+              required></textarea>
+          </div>
+
+          <div class="text-center">
+            <button type="submit" class="bg-brown text-white px-4">Submit</button>
+          </div>
+        </form>
+      </div>
+
+
+    </div>
+
+  </section>
+
+  <footer class="bg-dark text-light  m-5">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4">
+          <h5 class="mb-3">Friends Resturant</h5>
+          <ul class="list-unstyled">
+            <li><i class="bi bi-telephone"></i> 1800-121-3637</li>
+            <li><i class="bi bi-telephone"></i> +91-7052-101-786</li>
+            <li><i class="bi bi-envelope"></i> info@example.com</li>
+            <li><i class="bi bi-envelope"></i> help@example.com</li>
+            <li><i class="bi bi-geo-alt "></i> Nablus rafidia</li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <h5 class="mb-3">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Shop</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Blog</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <h5 class="mb-3 text-center">Our Location</h5>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54065.71664892514!2d35.223018658203125!3d32.224454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ce244a26e617b%3A0xf7b2b896c2c2d8d8!2sNablus!5e0!3m2!1sen!2s!4v1639927206182!5m2!1sen!2s"
+            width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+      </div>
+      <div class="text-center mt-3">
+        <p class="mb-0">&copy; 2024 Friends Resturant. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <script src="./main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
